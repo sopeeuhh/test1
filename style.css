@@ -1,9 +1,52 @@
-img {
-    width: 200px;
-}
 
 body {
     text-align: center;
     font-family: 'Comic Sans';
     color: black;
+}
+
+.navbar {
+    background-color: #bb93f0;
+    padding: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: "Bubblegum Sans", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #fffafc;
+}
+
+h1 {
+    padding: 1em;
+    color: #7d4ebb;
+    font-family: "Bubblegum Sans", cursive;
+}
+
+img {
+    width: 40em;
+    border-radius: 30px;
+
 }
